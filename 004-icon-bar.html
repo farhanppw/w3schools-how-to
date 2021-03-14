@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Icon Bar</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* Horizontal Bar */
+
+      .icon-bar {
+        max-width: 800px;
+        margin: 30px auto;
+        background: #555555;
+        overflow: auto;
+      }
+      .icon-bar a {
+        float: left;
+        text-align: center;
+        color: #fff;
+        padding: 12px 0;
+        width: 20%;
+        font-size: 36px;
+        transition: all 0.3s ease;
+      }
+      .icon-bar a:hover {
+        background: #000;
+      }
+      .active {
+        background: #4caf50;
+      }
+
+      /* Vertical Bar */
+
+      .icon-vertical {
+        background: #555555;
+        width: 90px;
+        margin: auto;
+      }
+      .icon-vertical a {
+        display: block;
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding: 20px 0;
+        transition: all 0.3s ease;
+      }
+      .icon-vertical a:hover {
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Horizontal Bar -->
+    <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
+    <br /><br />
+    <!-- Vertical Bar -->
+    <div class="icon-vertical">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
+  </body>
+</html>
